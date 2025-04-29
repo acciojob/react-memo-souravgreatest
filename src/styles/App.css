@@ -1,12 +1,63 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+/* App.css */
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 2rem;
+    color: #333;
+  }
+  
+  .app-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, h3 {
+    color: #2c3e50;
+  }
+  
+  .todo-section,
+  .counter-section,
+  .expensive-section,
+  .custom-input {
+    margin-bottom: 1.5rem;
+  }
+  
+  .todo-list,
+  .skill-list {
+    list-style-type: disc;
+    padding-left: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  h1 {
+      color: #27aedb;
+      text-align: center;
+      }
+      
+  
+  button{
+      color: #27aedb;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 6px 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 8px;
+  }
+  
+  .expensive-output {
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
